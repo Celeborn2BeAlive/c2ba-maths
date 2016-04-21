@@ -1,0 +1,11 @@
+#pragma once
+
+namespace c2ba
+{
+namespace maths 
+{
+    static constexpr char* LIBRARY_NAME = "@c2ba_maths_LIBRARY_NAME@";
+    static constexpr int VERSION_MAJOR = @c2ba_maths_VERSION_MAJOR@;
+    static constexpr int VERSION_MINOR = @c2ba_maths_VERSION_MINOR@;
+}
+}
