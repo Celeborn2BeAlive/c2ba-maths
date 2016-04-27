@@ -86,7 +86,6 @@ endif (${C2BA_LIBRARY_CMAKE_PREFIX}_BUILD_TESTS)
 
 install (DIRECTORY lib/include/c2ba DESTINATION include)
 install (FILES "${PROJECT_BINARY_DIR}/include/c2ba/maths/info.hpp" DESTINATION include/c2ba/maths)
-install (TARGETS ${C2BA_LIBRARY_NAME} DESTINATION lib/Release CONFIGURATIONS Release)
 
 foreach (CONFIG ${CMAKE_CONFIGURATION_TYPES})
     install (
