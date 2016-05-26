@@ -18,6 +18,7 @@ using glm::perspective;
 using glm::ortho;
 using glm::lookAt;
 using glm::inverse;
+using glm::transpose;
 using glm::determinant;
 
 template<typename T, typename U>
