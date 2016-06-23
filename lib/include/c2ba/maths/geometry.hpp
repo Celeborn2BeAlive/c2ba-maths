@@ -15,6 +15,7 @@ using glm::translate;
 using glm::rotate;
 using glm::scale;
 using glm::perspective;
+using glm::infinitePerspective;
 using glm::ortho;
 using glm::lookAt;
 using glm::inverse;
