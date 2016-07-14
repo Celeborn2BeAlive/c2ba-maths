@@ -156,11 +156,11 @@ inline void bounding_sphere(const aabb<T>& bbox, T& c,
 }
 
 /*! default template instantiations */
-typedef aabb<float2> BBox2f;
-typedef aabb<float3> BBox3f;
+typedef aabb<float2> aabb2f;
+typedef aabb<float3> aabb3f;
 
-typedef aabb<int2> BBox2i;
-typedef aabb<int3> BBox3i;
+typedef aabb<int2> aabb2i;
+typedef aabb<int3> aabb3i;
 
 inline bool viewportContains(const float2& position, const float4& viewport) {
     return position.x >= viewport.x && position.y >= viewport.y &&
